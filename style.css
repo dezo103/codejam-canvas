@@ -1,1 +1,94 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.wrapper {
+  max-width: 1440px;
+  border: 1px solid lightgray;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 16px 24px -21px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 16px 24px -21px rgba(0, 0, 0, 0.5);
+  padding: 0 5% 0 5%;
+}
+
+.header .fa {
+  font-size: 30px;
+}
+
+.header .fa:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pallete {
+  border: 1px solid lightgray;
+  width: 256px;
+  margin: 40px;
+  -webkit-box-shadow: 7px 28px 50px -27px rgba(0, 0, 0, 0.5);
+          box-shadow: 7px 28px 50px -27px rgba(0, 0, 0, 0.5);
+}
+
+.pallete ul {
+  padding-left: 0;
+}
+
+.pallete li {
+  list-style-type: none;
+}
+
+.pallete li .fa {
+  margin-right: 14px;
+}
+
+.pallete li .fa-circle-blue {
+  color: blue;
+}
+
+.pallete li .fa-circle-red {
+  color: red;
+}
+
+.pallete li:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.pallete .item {
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.pallete .item__color, .pallete .item__previous-color {
+  border-bottom: 1px solid lightgray;
+}
+
+.canvas {
+  width: 512px;
+  min-width: 512px;
+  height: 512px;
+  border: 1px solid lightgray;
+  margin: 40px 0 40px 0;
+}
+/*# sourceMappingURL=style.css.map */
